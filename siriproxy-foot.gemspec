@@ -4,7 +4,7 @@ $:.push File.expand_path("../lib", __FILE__)
 Gem::Specification.new do |s|
   s.name        = "siriproxy-foot"
   s.version     = "0.1" 
-  s.authors     = ["cedbv and gregthehacker"]
+  s.authors     = ["cedbv"]
   s.email       = [""]
   s.homepage    = ""
   s.summary     = %q{Foot}
