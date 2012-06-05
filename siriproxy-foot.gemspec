@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = "0.1" 
   s.authors     = ["cedbv&&&gregthehacker"]
   s.email       = ["gregthehacker.me.com"]
-  s.homepage    = "siri.0rg.fr"
+  s.homepage    = "http://siri.0rg.fr"
   s.summary     = %q{Foot}
   s.description = %q{Football}
 
