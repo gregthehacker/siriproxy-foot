@@ -9,7 +9,7 @@ class SiriProxy::Plugin::Foot < SiriProxy::Plugin
 	def initialize(config)
 	end
 	
-	listen_for /résultat de l'euro/i do |ph|
+	listen_for /Résultat de l'euro/i do |ph|
 		response = HTTParty.get("http://euro.tf1.fr/2012/resultat-match-classement-groupe/")
 		doc = Nokogiri::HTML(response)
 
